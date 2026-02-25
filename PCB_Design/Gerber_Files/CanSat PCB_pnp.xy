@@ -1,0 +1,60 @@
+# Pick And Place List
+# eMail=
+#
+# Project=CanSat PCB
+# Date=06:57:27
+# CreatedBy=Fritzing 1.0.6.2025-10-07.CD-2239-0-04e5bb02
+#
+# Coordinates in mils, always center of component
+# Origin 0/0=Lower left corner of PCB. Rotation in degree (0-360, math. pos.)
+RefDes,Description,Package,X,Y,Rotation,Side,Mount
+Description: resistance;capacitance;inductance;voltage;current;power;mpn;mn;
+BMP280 #2,";;;;;;;;","",973.767,1422.75,0,Bottom,MANUAL
+MPU #1,";;;;;;;;","",1040.83,2243.29,0,Bottom,MANUAL
+MPU #2,";;;;;;;;","",2636.54,1417.74,0,Bottom,MANUAL
+BMP280 #1,";;;;;;;;","",2505.8,2339.69,0,Bottom,MANUAL
+Capacitor #1,";1µF;;35V;;;;;","100 mil [THT, electrolytic]",1300.77,3015.25,0,Bottom,THT
+Resistor #2,"10k;;;;;0.25W;;;","THT",1929.42,2953.74,90,Bottom,THT
+Capacitor #2,";1µF;;35V;;;;;","100 mil [THT, electrolytic]",2331.43,3007.93,0,Bottom,THT
+Via4,";;;;;;;;","",1782.2,491.68,0,Top,MANUAL
+Via14,";;;;;;;;","",1398.91,1371.99,0,Top,MANUAL
+Via10,";;;;;;;;","",606.196,2315.68,0,Top,MANUAL
+Via3,";;;;;;;;","",798.196,2123.68,0,Top,MANUAL
+Via11,";;;;;;;;","",1086.2,1859.68,0,Top,MANUAL
+Via2,";;;;;;;;","",2166.2,1043.68,0,Top,MANUAL
+MCU #1,";;;;;;;;","",1157.74,2291.85,0,Top,MANUAL
+Jumper7,";;;;;;;;","",1473.48,2015.38,0,Top,MANUAL
+Via7,";;;;;;;;","",726.196,2819.68,0,Top,MANUAL
+Jumper8,";;;;;;;;","",1002.15,2608.98,0,Top,MANUAL
+Jumper2,";;;;;;;;","",2160.98,1475.94,0,Top,MANUAL
+Via9,";;;;;;;;","",1621.75,2147.68,0,Top,MANUAL
+Via6,";;;;;;;;","",1278.2,2579.68,0,Top,MANUAL
+Via1,";;;;;;;;","",1542.2,2387.68,0,Top,MANUAL
+Jumper1,";;;;;;;;","",1931.89,2065.19,0,Top,MANUAL
+Via15,";;;;;;;;","",1327.21,2715.02,0,Top,MANUAL
+Via8,";;;;;;;;","",2310.2,1811.68,0,Top,MANUAL
+Jumper3,";;;;;;;;","",2441.86,1733.13,0,Top,MANUAL
+Via17,";;;;;;;;","",1971.41,2649.34,0,Top,MANUAL
+Via5,";;;;;;;;","",2598.2,2099.68,0,Top,MANUAL
+MCU #2,";;;;;;;;","",2569.47,2281.63,0,Top,MANUAL
+Jumper4,";;;;;;;;","",2380.32,2479.08,0,Top,MANUAL
+Jumper6,";;;;;;;;","",2925.86,2006.82,0,Top,MANUAL
+Jumper5,";;;;;;;;","",2574.82,2395.87,0,Top,MANUAL
+Via12,";;;;;;;;","",2694.2,2555.68,0,Top,MANUAL
+Via18,";;;;;;;;","",2672.76,2756.23,0,Top,MANUAL
+Via16,";;;;;;;;","",2503.55,3006.33,0,Top,MANUAL
+Via13,";;;;;;;;","",2958.2,2651.68,0,Top,MANUAL
+Via19,";;;;;;;;","",3071.22,2721.75,0,Top,MANUAL
+Battery Connector,";;;;;;;;","SMD",1044.84,565.255,90,Top,SMT
+Servo Header #1,";;;;;;;;","1x03-1mm-ra",1695.13,455.415,0,Top,SMT
+Reset #1,";;;;;;;;","tactile-pth",675.956,1602.09,0,Top,SMT
+Servo Header #2,";;;;;;;;","1x03-1mm-ra",2167.55,432.715,0,Top,SMT
+Upload #1,";;;;;;;;","tactile-pth",1259.93,1602.09,0,Top,SMT
+5V Regulator,";;;5V;;;;;","7805-upright",1788.28,1188,0,Top,SMT
+3V3 Regulator,";;;;;;;;","sot23-3",2565.96,744.621,90,Top,SMT
+Programming Headers #1,";;;;;;;;","em406",795.233,2871.77,0,Top,SMT
+Reset #2,";;;;;;;;","tactile-pth",2348.32,1566.31,0,Top,SMT
+Upload #2,";;;;;;;;","tactile-pth",2784.09,1571.42,0,Top,SMT
+Programming Headers #2,";;;;;;;;","em406",2755.74,2797.8,0,Top,SMT
+Power Switch,";;;;;;;;","THT",1430.77,762.509,0,Top,THT
+Resistor #1,"10k;;;;;0.25W;;;","THT",1596.09,3055.12,90,Top,THT
